@@ -1,0 +1,7 @@
+services:
+  _defaults:
+    autoconfigure: true
+
+  GepurIt\RemoteProcedureCallBundle\Helper\RequestResponseLogger:
+    autowire: true
+

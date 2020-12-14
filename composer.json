@@ -1,0 +1,41 @@
+{
+  "name": "maritechpro/rpc-amqp-client",
+  "description": "RPC API bundle",
+  "type": "symfony-bundle",
+  "keywords": [
+    "symfony",
+    "rabbitmq",
+    "amqp",
+    "rpc"
+  ],
+  "version": "1.0.0",
+  "homepage": "https://github.com/maritechpro/prc-amqp-server",
+  "require": {
+    "ext-amqp": "*",
+    "php": "^7.4",
+    "symfony/dependency-injection": "^4.3|^5.0",
+    "symfony/config": "^4.3|^5.0",
+    "symfony/yaml": "^4.3|^5.0",
+    "symfony/http-kernel": "^4.3|^5.0",
+    "gepur-it/rabbitmq-bundle": "^5.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marina Mileva",
+      "email": "m934222258@gmail.com"
+    },
+    {
+      "name": "Andrii Yakovlev",
+      "email": "yawa20@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "GepurIt\\RemoteProcedureCallBundle\\":  "src"
+    }
+  },
+  "require-dev": {
+    "vimeo/psalm": "^3.4"
+  }
+}

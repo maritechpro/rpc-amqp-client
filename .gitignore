@@ -1,0 +1,4 @@
+/vendor
+/.idea
+psalm.xml
+composer.lock
