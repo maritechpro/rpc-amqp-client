@@ -1,6 +1,6 @@
 {
   "name": "maritechpro/rpc-amqp-client",
-  "description": "RPC API bundle",
+  "description": "RPC client bundle",
   "type": "symfony-bundle",
   "keywords": [
     "symfony",
