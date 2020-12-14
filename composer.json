@@ -18,7 +18,7 @@
     "symfony/yaml": "^4.3|^5.0",
     "symfony/http-kernel": "^4.3|^5.0",
     "gepur-it/rabbitmq-bundle": "^5.0",
-    "doctrine/mongodb-odm-bundle": "^4.2"
+    "doctrine/mongodb-odm-bundle": ">=3.4"
   },
   "license": "MIT",
   "authors": [
